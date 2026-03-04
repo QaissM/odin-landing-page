@@ -63,15 +63,15 @@ nav ul li {
 
 .description button {
     border-radius: 5px;
+    border-color: #212b3b;
     font-size: 18px;
     font-weight: 350;
     padding: 5px 20px;
-    border: none;
     color: white;
-    background-color:rgb(69, 135, 235)
+    background-color:rgb(69, 135, 235);
 }
 
-.description button:hover {
+button:hover {
     cursor: pointer;
 }
 
@@ -149,3 +149,33 @@ cite {
     text-align: end;
     font-weight: bold;
 }
+
+/* last section */
+
+.signup-box {
+    background-color:rgb(69, 135, 235);
+    margin: 12% 10%;
+    padding: 3% 10%;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+}
+
+.box-text {
+    flex: 2 1 auto;
+}
+
+.box-text .catchy {
+    font-weight: bold;
+}
+
+.signup-box button {
+    background-color: rgb(69, 135, 235);
+    border-color: white;
+    border-radius: 10px;
+    color: white;
+    flex: 1;
+    width: 150px;
+}
+
+
