@@ -179,3 +179,10 @@ cite {
 }
 
 
+/* Footer */
+.footer {
+    background-color:#212b3b;
+    text-align: center;
+    color: white;
+    padding: 2%;
+}
